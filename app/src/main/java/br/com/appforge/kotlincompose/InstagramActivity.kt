@@ -25,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import br.com.appforge.kotlincompose.model.Post
 import br.com.appforge.kotlincompose.model.Story
+import br.com.appforge.kotlincompose.ui.components.InstaBottomBar
 import br.com.appforge.kotlincompose.ui.components.InstaStories
 import br.com.appforge.kotlincompose.ui.components.InstaTopBar
 import br.com.appforge.kotlincompose.ui.components.PostArea
@@ -75,9 +76,7 @@ class InstagramActivity : ComponentActivity() {
                         InstaTopBar()
                     },
                     bottomBar = {
-                        BottomAppBar {
-                            Text(text = "Bottom App Bar")
-                        }
+                        InstaBottomBar()
                     },
                     floatingActionButton = {
                         FloatingActionButton(onClick = {}) {
