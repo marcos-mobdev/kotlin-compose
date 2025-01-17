@@ -1,4 +1,4 @@
-package br.com.appforge.kotlincompose.ui.components
+package br.com.appforge.kotlincompose.ui.view.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Button

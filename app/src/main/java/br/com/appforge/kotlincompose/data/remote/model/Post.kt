@@ -1,4 +1,4 @@
-package br.com.appforge.kotlincompose.model
+package br.com.appforge.kotlincompose.data.remote.model
 
 data class Post(
     val profileImageRes: Int,

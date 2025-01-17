@@ -1,4 +1,4 @@
-package br.com.appforge.kotlincompose.ui.components
+package br.com.appforge.kotlincompose.ui.view.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.icons.Icons

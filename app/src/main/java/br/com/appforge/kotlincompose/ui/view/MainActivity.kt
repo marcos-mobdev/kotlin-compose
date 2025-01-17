@@ -1,6 +1,5 @@
-package br.com.appforge.kotlincompose
+package br.com.appforge.kotlincompose.ui.view
 
-import android.content.ClipData.Item
 import android.os.Bundle
 import android.widget.Toast
 
@@ -38,7 +37,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import br.com.appforge.kotlincompose.model.User
+import br.com.appforge.kotlincompose.R
+import br.com.appforge.kotlincompose.data.remote.model.User
 import br.com.appforge.kotlincompose.ui.theme.KotlinComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -72,7 +72,7 @@ class MainActivity : ComponentActivity() {
     }//onCreate
 
     @Composable
-    fun ItemCard(user:User){
+    fun ItemCard(user: User){
         Card(
             modifier = Modifier
                 .padding(8.dp)

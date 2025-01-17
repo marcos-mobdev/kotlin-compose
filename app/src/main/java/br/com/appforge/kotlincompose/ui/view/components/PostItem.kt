@@ -1,4 +1,4 @@
-package br.com.appforge.kotlincompose.ui.components
+package br.com.appforge.kotlincompose.ui.view.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -18,7 +18,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import br.com.appforge.kotlincompose.model.Post
+import br.com.appforge.kotlincompose.data.remote.model.Post
 
 @Composable
 fun PostItem(
